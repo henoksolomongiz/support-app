@@ -4,7 +4,7 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import ToastPlugin from 'vue-toast-notification';
 
-import "@/index.css"
+import "@/assets/main.css"
 import App from './App.vue'
 import router from './router'
 

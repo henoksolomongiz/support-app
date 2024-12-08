@@ -38,22 +38,12 @@ export function useHttp() {
     }  
   };
 
-  const put = async <T>(endpoint: string, data: any): Promise<T> => {
-    try { 
-      error.value = null;
-      const response: AxiosResponse<T> = await api.put(endpoint, data);
-      return response.data;
-    } catch (err) {
-      return handleError(err as AxiosError);
-    }  
-  };
-
+ 
   
 
   return {
     error,
     get,
-    post,
-    put, 
+    post
   };
 }

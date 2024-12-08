@@ -1,13 +1,21 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router' 
+import NavBar from '@components/layout/NavBar.vue'
+
 </script>
 
 <template>
-  <header>
     
-  </header>
-
-  <RouterView />
+  <div>
+    <nav>
+      <NavBar />
+    </nav>
+      
+      <!-- Main Content -->
+      <main class="container mx-auto py-8">
+        <router-view />
+      </main>
+    </div>
 </template>
 
 <style scoped>
