@@ -6,11 +6,9 @@ import NavBar from '@components/layout/NavBar.vue'
 
 <template>
     
-  <div>
-    <nav>
+  <div> 
       <NavBar />
-    </nav>
-      
+  
       <!-- Main Content -->
       <main class="container mx-auto py-8">
         <router-view />
@@ -24,10 +22,7 @@ header {
   max-height: 100vh;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
+ 
 
 nav {
   width: 100%;

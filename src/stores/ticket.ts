@@ -11,12 +11,11 @@ export const useTicketStore = defineStore("ticket", {
     }),
     actions: {
         async addTicket(ticket: Ticket) {
-            await post<Ticket>('/api/tickets', ticket);
-            this.fetchTicket();
+            await post<Ticket>('/tickets', ticket);
         },
         async fetchTicket() {
-            let response = await get<Ticket[]>('/api/tickets');
-            this.ticket = response;
+            let response = await get<Ticket[]>('/tickets');
+            this.ticket = response.reverse();
         }
     },
     getters: {
