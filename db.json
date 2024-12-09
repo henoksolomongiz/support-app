@@ -4,49 +4,12 @@
       "id": "1",
       "title": "First Ticket",
       "description": "Details of the first ticket",
-      "status": "CREATED"
+      "status": "PENDING"
     },
     {
-      "id": "0122",
-      "title": "sdfsd",
-      "description": "sdfsdf",
-      "status": "OPEN"
-    },
-    {
-      "id": "dee9",
-      "title": "tess",
-      "description": "sdfds",
-      "status": "OPEN"
-    },
-    {
-      "id": "d8bc",
-      "title": "werwerewre",
-      "description": "dsfsdfsdf"
-    },
-    {
-      "id": "666a",
-      "title": "rferwerw",
-      "description": "sdfsdf"
-    },
-    {
-      "id": "79e2",
-      "title": "drter",
-      "description": "sdfskdjfskd"
-    },
-    {
-      "id": "1934",
-      "title": "dfsdf",
-      "description": "dfgdg"
-    },
-    {
-      "id": "3344",
-      "title": "serfwer",
-      "description": "sdfsdf"
-    },
-    {
-      "id": "5616",
-      "title": "dfgdf",
-      "description": "sdfsdf",
+      "id": "713a",
+      "title": "dfgdfg",
+      "description": "sdfsdfsf",
       "status": "PENDING"
     }
   ]
