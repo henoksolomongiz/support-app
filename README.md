@@ -25,6 +25,7 @@ npm install
 ```sh
 npm run dev
 ```
+npm run api
 
 ### Type-Check, Compile and Minify for Production
 

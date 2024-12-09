@@ -1,0 +1,16 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "title": "First Ticket",
+      "description": "Details of the first ticket",
+      "status": "PENDING"
+    },
+    {
+      "id": "713a",
+      "title": "dfgdfg",
+      "description": "sdfsdfsf",
+      "status": "PENDING"
+    }
+  ]
+}

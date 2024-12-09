@@ -1,14 +1,19 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterLink, RouterView } from 'vue-router' 
+import NavBar from '@components/layout/NavBar.vue'
+
 </script>
 
 <template>
-  <header>
     
-  </header>
-
-  <RouterView />
+  <div> 
+      <NavBar />
+  
+      <!-- Main Content -->
+      <main class="container mx-auto py-8">
+        <router-view />
+      </main>
+    </div>
 </template>
 
 <style scoped>
@@ -17,10 +22,7 @@ header {
   max-height: 100vh;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
+ 
 
 nav {
   width: 100%;
